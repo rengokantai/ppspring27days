@@ -8,7 +8,24 @@
 @RequestParam
 ```
 
+
+
+## Testing Your App
+```
+mockmvc = MockMVCBuilders.webAppContextSetup(context).alwaysDo(print()).build()
+```
+
 ## Creating Your First REST
+###REST vs SOAP
+Rest
+- representational state transfer
+- Defines a set of constraints to be used to create web services
+- REST is an architectual style
+
+Soap
+- expose their own sets of operations
+- soap is a protocol
+
 Formal rest constraints
 - Client-server architecture
 - Statelessness
